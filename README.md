@@ -1,7 +1,7 @@
 # read-big-parquet-file-aws-athena
 A comparison between reading a big text data file and its parquet equivalent using Athena
 
-So, I wrote a previous repo - check it out [here] (https://github.com/taupirho/read-big-file-aws-athena-glue) - where I detailed 
+So, I wrote a previous repo - check it out [here](https://github.com/taupirho/read-big-file-aws-athena-glue) - where I detailed 
 some timings on reading a big pipe separated text file using AWS Athena and Glue. I thought it would be interesting to repeat the 
 same SQL's against the same file, but this time in parquet format. As a recap the original file was a pipe sparated text file, 
 21Gbytes uncompressed and contained approx 366 million records. I ran the following SQL statements against and got the timings as shown
